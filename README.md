@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# TransportAPP-
+Title: School Transport Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview: The School Transport Management System is an online platform that provides a comprehensive solution for managing school transportation. The platform includes a web application built using React and Spring Boot that allows parents to add their children to the system and track their location in real-time using GPS technology. The system also includes a director dashboard that allows for the management of drivers and vehicles.
 
-## Available Scripts
+Features:
 
-In the project directory, you can run:
+User Authentication: The system includes a secure user authentication system that allows parents, drivers, and the director to log in using their respective credentials.
 
-### `npm start`
+Parent Portal: Parents can create an account and add their children to the system. They can also view the location of their child's bus in real-time using GPS tracking.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Driver Portal: Drivers can log in and view their assigned routes, as well as any changes to their schedules. They can also report any issues with the vehicle or route.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Director Dashboard: The director dashboard provides a comprehensive view of the system's operations. It includes features for managing drivers, vehicles, and routes. The dashboard also allows for the creation of reports and the monitoring of key performance indicators.
 
-### `npm test`
+GPS Tracking: The system uses GPS technology to track the location of buses in real-time. This information is displayed to parents through the parent portal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technology Stack:
 
-### `npm run build`
+React: A JavaScript library used for building user interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Spring Boot: A framework for building web applications using the Java programming language.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+MySQL: A relational database management system used to store data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Google Maps API: A service provided by Google that provides access to location data and maps.
 
-### `npm run eject`
+HTML/CSS: Used for designing and styling the web application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusion: The School Transport Management System is a comprehensive solution for managing school transportation. It provides real-time GPS tracking, user authentication, and a director dashboard for managing drivers, vehicles, and routes. The system is built using React and Spring Boot, which are robust and scalable technologies.
