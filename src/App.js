@@ -1,14 +1,14 @@
 import './App.css';
-
-import AppBar from './components/appbar';
+import Navbar from './components/Navbar';
 import Manager from './components/Manager';
+
 
 function App() {
   return (
-    <div id='bar'> 
-    <AppBar/>
+    <div id='bar'>   
+    <Navbar/>
     <Manager/>
-
+  
     </div>
    
   );

@@ -4,97 +4,73 @@ import TextField from '@mui/material/TextField';
 import { Paper } from '@mui/material';
 import Button from '@mui/material/Button';
 
-import bgg from './3366336.png'
+import bgg from './logoo.png'
 
 
 
 export default function Manager() {
   
-    const[driverlastname,setDriverLastname]=React.useState('')
-    const[driverfirstname,setDriverFirstname]=React.useState('')
-    const[cin,setCin]=React.useState('')
-    const[email,setEmail]=React.useState('')
-    const[phone,setPhone]=React.useState('')
-    const[sector,setSector]=React.useState('')
+    const[login,setlogin]=React.useState('')
+    const[password,setpassword]=React.useState('')
 const handleClick=(e)=>{
-    const Manager={driverlastname,driverfirstname,cin,phone,email,sector}
+    const Manager={login,password}
     console.log(Manager)
     fetch("http://localhost:8081/admin/adddriver",{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body:JSON.stringify(Manager)
 }).then(()=>{
-    console.log("added Driver Successefully")
+    console.log("login Successefully")
 })
 }
 
 const paperStyle = {
-  width: '40%',
- height: '10%',
-  padding: 10,
-  margin:'20px 10px 0px 400px',
-  backgroundColor: 'CYAN',
+  width: '24%',
+  height:'500px',
+  padding: 30,
+  margin:'50px 0px 0px 530px',
+  backgroundColor: '#146C94',
   boxShadow: '0 0 10px #ccc',
 
 
 };
   return (
+    
     <Box
       component="Manager"
-      sx={{
-        display: 'flex',
-        
-        '& > :not(style)': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
     >
        
         
-        <Paper elevation={8} style={paperStyle} >
-        <div>
-      <img src ={bgg} width="190" height="170" alt='sami'  />
-    </div>
+        <Paper elevation={4} style={paperStyle} >
+        
+      <img src ={bgg} width="200" height="140" alt='sami'  />
+  
         
 
-            <h1 >Add driver</h1>
-     
-         <TextField id="outlined-basic" label="Driver lastName" variant="outlined" 
-         value={driverlastname}
-         onChange={(e)=>setDriverLastname(e.target.value)}
+            <h1 style={{color: "White"}} >Login</h1>
+         <div  > 
+         <TextField id="outlined-basic" label="Login" variant="outlined"
+         value={login}
+         style={{ margin: '10px 10px 10px 10px' }}
+         onChange={(e)=>setlogin(e.target.value)}
          
-         />  
-         <TextField id="outlined-basic" label="Driver FirstName" variant="outlined" 
-         value={driverfirstname}
-         onChange={(e)=>setDriverFirstname(e.target.value)}
-         
-         />
-         <div><br></br></div>
-         <TextField id="outlined-basic" label="CIN" variant="outlined"
-           value={cin}
-           onChange={(e)=>setCin(e.target.value)}
-         
-         />  
-         <div><br></br></div>
-        <TextField id="outlined-basic" label="phone number " variant="outlined"
-          value={phone}
-          onChange={(e)=>setPhone(e.target.value)}
-        />
+         />  </div> 
+         <div align="center"  style={{}}>
           <div><br></br></div>
-        <TextField id="outlined-basic" label="Email " variant="outlined"
-          value={email}
-          onChange={(e)=>setEmail(e.target.value)}
-        />  <div><br></br></div>
-        <TextField id="outlined-basic" label="Sector" variant="outlined"
-          value={sector}
-          onChange={(e)=>setSector(e.target.value)}
-        
-        />
+         <TextField id="outlined-basic" label="password" type="password" variant="outlined"  margin='dense'  size='Normal'
+         value={password}
+         onChange={(e)=>setpassword(e.target.value)}
+         /> </div>
 
+<div><br></br></div>
+      
+         
 
-         <div><br></br></div> 
-        <div> <Button variant="contained"onClick={handleClick}>Save</Button></div>
-        
+<div><br></br></div>
+          
+        <div> <Button variant="contained"onClick={handleClick}>Login</Button></div>
+        <div><br></br></div>
+        <div><br></br></div>
     </Paper>
     
      

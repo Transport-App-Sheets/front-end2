@@ -3,5 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    background-color:rgb(15, 15, 69);
-}
+    background-color:rgb(246, 233, 233);
+    background-image: url('web.jpg ');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; }

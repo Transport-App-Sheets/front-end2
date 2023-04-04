@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    background: #0169a9;
+    box-shadow: 0 0px 15px rgba(57, 10, 10, 0.06);
+    border-radius: 25px;
+
+  }
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 0 40px;
+    margin-left: 30px;
+    position:sticky;
+  }
+  
+  #navbar li a {
+    font-family:"PT Sans", Calibri, Tahoma, sans-serif;;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  #navbar li a:hover,
+  #navbar li a.active {
+    color: #00b7ff;
+  }
+  
+  #navbar li a:hover::after,
+  #navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #00d2f7;
+    position: absolute;
+    bottom: -2px;
+    left: 47px;}
