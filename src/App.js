@@ -1,13 +1,12 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Manager from './components/Manager';
-
+//import Navbar from './components/Navbar';
+//import Login from './components/Childrens';
+import Childrens from './components/Childrens';
 
 function App() {
   return (
     <div id='bar'>   
-    <Navbar/>
-    <Manager/>
+    <Childrens/>
   
     </div>
    

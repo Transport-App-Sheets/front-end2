@@ -8,17 +8,18 @@ import bgg from './logoo.png'
 
 
 
-export default function Manager() {
+export default function Login() {
   
     const[login,setlogin]=React.useState('')
     const[password,setpassword]=React.useState('')
+
 const handleClick=(e)=>{
-    const Manager={login,password}
-    console.log(Manager)
-    fetch("http://localhost:8081/admin/adddriver",{
+    const Login={login,password}
+    console.log(Login)
+    fetch("http://localhost:8081/admin/login",{
     method:"POST",
     headers:{"Content-Type":"application/json"},
-    body:JSON.stringify(Manager)
+    body:JSON.stringify(Login)
 }).then(()=>{
     console.log("login Successefully")
 })
@@ -37,7 +38,7 @@ const paperStyle = {
   return (
     
     <Box
-      component="Manager"
+      component="Login"
     >
        
         
