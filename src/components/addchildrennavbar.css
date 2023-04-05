@@ -1,0 +1,38 @@
+.button5 {
+    background-color: rgb(130, 148, 246); 
+    color: rgb(0, 0, 0); 
+    border: 2px solid #008CBA;
+    border-radius: 18px;
+    border: none;
+    width: 70px;
+    height: 50px;
+    
+
+  }
+  
+  .button5:hover {
+   background-color: rgb(60, 158, 244);
+    color: rgb(255, 255, 255);
+  }
+  .h1h{
+    color: rgb(0, 155, 251);
+    font-family:sans-serif;
+    width: 700px;
+    border: 8px solid rgba(29, 40, 194, 0.353);
+    padding: 8px;
+    text-align: center;
+    margin-left:32%;
+    margin-top:0px;
+    border-radius: 20px;
+    background-color: aqua;
+
+    
+
+  }
+
+  .divv{
+ background-color: rgb(0, 172, 252);
+    text-align: center;
+    border-radius: 40px;
+  }
+  

@@ -4,7 +4,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background-color:rgb(246, 233, 233);
-    background-image: url('web.jpg ');
-    background-position: center; 
+    
+    background-image: url('bg.jpg ');
+    
   background-repeat: no-repeat; 
   background-size: cover; }
