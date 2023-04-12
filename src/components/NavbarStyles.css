@@ -1,16 +1,22 @@
 nav {
+  
     display: flex;
     align-items: normal;
     justify-content: space-between;
-    background: #0169a9;
+    background: #30424d;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
     box-shadow: 0 0px 15px rgba(57, 10, 10, 0.06);
     border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: -20px;
 
   }
   #navbar {
     display: flex;
     align-items: center;
     justify-content:flex-start;
+    
   }
   
   #navbar li {
@@ -42,3 +48,5 @@ nav {
     position: absolute;
     bottom: -2px;
     left: 47px;}
+
+ 
